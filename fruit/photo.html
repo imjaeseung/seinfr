@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>story</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>fruit</title>
+  <link href="../css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #fff;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .mySwiper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      width: 80%;
+      height: 80%;
+      bottom: -10;
+    }
+
+    .swiper-slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 18px;
+      overflow: hidden;
+    }
+
+    .swiper-slide .slide-content img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 18px; /* 모서리 라운딩 처리 */
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="index.html">
+          <span style="color: orange; font-weight: bold;">세인</span>
+          <span style="color: green; font-weight: bold;">과수원</span>
+        </a>
+
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent1" style="text-align: center; font-weight: bold; margin-right: 70px">
+          <ul class="navbar-nav mx-auto">
+
+            <li class="nav-item active" style="margin-right: 90px">
+              <a class="nav-link" href="shop.html" style=color:darkgreen;>우리 과일&nbsp; <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active" style="margin-right: 70px">
+              <a class="nav-link" href="photo.html" style=color:darkgreen;>과수원이야기&nbsp;&nbsp; <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="here.html" style=color:darkgreen;>여기로오세요&nbsp;&nbsp; <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active"> </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+          </form>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <script src="../js/jquery-3.4.1.min.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap-4.4.1.js"></script>
+
+  <swiper-container class="mySwiper" effect="cards" grab-cursor="true">
+    <swiper-slide>
+      <div class="slide-content">
+        <img src="./images/sal.jpg" alt="Image">
+      </div>
+		   <div class="carousel-caption" style="margin-bottom: 100px">
+            <h5 class="text-left" style="font-size: 34px;">유기농 무농약 <p class="text-left">과일</p></h5>
+            <p class="text-left" style="font-size: 13px">경상북도 영천시에서 재배되고 있는 세인과수원의 과일들은<br> 비옥한 토지에서 자라 50년넘게 이어져 내려온<br> 능숙한 재배 경력으로 정성껏 키워낸 과일들입니다. <br>여러종류의 과일들이 고객님들을 맞을 준비를 하고 있습니다.<br> 세인과수원의 잊지 못할 정성과 맛을 체험해보세요. </p>
+          </div>
+    </swiper-slide>
+    <swiper-slide><div class="slide-content">
+        <img src="./images/grapes-3633375_1920.jpg" alt="Image">
+      </div>
+		   <div class="carousel-caption" style="margin-bottom: 130px">
+            <h5 class="text-left" style="font-size: 34px;">우수품종만 취급합니다. <p class="text-left"></p></h5>
+            <p class="text-left" style="font-size: 13px">양질의 상품만 판매하기 위하여 저희는 항상 노력중이며 <br>우수한 품종만 사용하여 재배하고 있습니다!</p>
+          </div></swiper-slide>
+    <swiper-slide><div class="slide-content">
+        <img src="./images/old2.jpg" alt="Image">
+      </div>
+		   <div class="carousel-caption" style="margin-bottom: 100px">
+            <h5 class="text-left" style="font-size: 34px;">역사가 있는 <p class="text-left">과수원</p></h5>
+            <p class="text-left" style="font-size: 13px">세인 과수원은 역사와 전통이 있는 과수원 입니다.<br> 3대째 과수원을 운영하며 얻은 그 재배기술의 깊이와 노하우는 <br>그대로 한해의 과실로 여실히 드러납니다.</p>
+          </div>
+	  </swiper-slide>
+    <swiper-slide><div class="slide-content">
+        <img src="./images/g2.jpg" alt="Image">
+      </div>
+		   <div class="carousel-caption" style="margin-bottom: 130px">
+            <h5 class="text-left" style="font-size: 34px;">과수원 체험 준비중 <p class="text-left"></p></h5>
+            <p class="text-left" style="font-size: 13px">고객님들께서 직접 과수원의 재배 현장에 오셔서 과일을 재배하며<br> 몸소 체험하실 수 있는 서비스를 준비중입니다. 기대해주세요! </p>
+          </div></swiper-slide>
+    <swiper-slide><div class="slide-content">
+        <img src="./images/nature.jpg" alt="Image">
+      </div>
+		   <div class="carousel-caption" style="margin-bottom: 140px">
+            <h5 class="text-left" style="font-size: 34px;">최고의 재배환경 <p class="text-left"></p></h5>
+            <p class="text-left" style="font-size: 13px">맑은 공기 맑은 물이 흐르고있는 영천의 한 산중턱에서 재배하고 있습니다.<br>도시의 소음과 먼지가 닿지 않는 곳에서 자란 곱고 행복한 과일들입니다 </p>
+          </div>
+	  </swiper-slide>
+    
+  </swiper-container>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+
+</body>
+
+</html>
